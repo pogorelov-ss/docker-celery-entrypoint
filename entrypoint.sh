@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-exec celery -A dj_main worker "$@"
+exec celery -A dj_main worker -l info
